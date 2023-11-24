@@ -13,7 +13,7 @@
     <div id="snowing"></div>
     <p class="instructions">Find today's door and click to open</p>
     <section class="calendar">
-        <section class="door">
+        <section class="door" onclick="openDoor(1)">
             <p class="door-number">1</p>
         </section>
         <section class="door">
@@ -31,6 +31,10 @@
         return snow;
     }
     document.getElementById("snowing").innerHTML = silentNight(1);
+
+    function openDoor(doorNumber) {
+        alert("door 1");
+    }
 </script>
 
 </html>
