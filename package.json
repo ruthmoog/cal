@@ -1,0 +1,12 @@
+{
+  "name": "cal",
+  "version": "1.0.0",
+  "description": "Xmas calendar experiment",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass styles/sass/main.scss styles/css/style.css -w",
+    "test": "npm test"
+  },
+  "author": "Ruth Baker",
+  "license": "MIT"
+}

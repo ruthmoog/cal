@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Xmas Calender!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="/styles/css/style.css" />
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+    <div id="snowing"></div>
+    <p class="instructions">Find today's door and click to open</p>
+    <section class="calendar">
+        <section class="door">
+            <p class="door-number">1</p>
+        </section>
+        <section class="door">
+            <p class="door-number">2</p>
+        </section>
+    </section>
+</body>
+
+<script>
+    function silentNight(day) {
+        let snow;
+        for (var i = 0; i < (day * 10); i++) {
+            snow += `<div class="snow"></div>`;
+        };
+        return snow;
+    }
+    document.getElementById("snowing").innerHTML = silentNight(1);
+</script>
+
+</html>
