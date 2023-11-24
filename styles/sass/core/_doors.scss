@@ -4,13 +4,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.calender {
+.calendar {
     display: flex;
+    gap: 20px;
 }
 
 .door {
     border: 1px solid pink;
-    text-align: left;
-    width: 200px;
+    border-left: none;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    text-align: right;
+    border-left: none;
 }
 
